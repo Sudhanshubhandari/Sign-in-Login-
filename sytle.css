@@ -14,9 +14,20 @@ body{
     align-items: center;
     justify-content: center;
     /* background-color:  #fa5c1e; */
-    background: url('./back.jpg') no-repeat center center/cover;
-    
+    background: url('./back.jpg') no-repeat center center/cover;  
 }
+
+@media screen and (max-width:500px){
+    body{
+      
+        background-color:  #fa5c1e;
+        background-image: none;
+     
+    }
+}
+
+
+
 
 
 .container{
